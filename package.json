@@ -2,9 +2,9 @@
   "name": "fullstackjsdev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-
+    "start": "src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc"
   },
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/kleimenov/fullStack-study#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
   }
 }
