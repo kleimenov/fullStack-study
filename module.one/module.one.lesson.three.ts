@@ -22,3 +22,12 @@
 // functionTwo(variable_I, variable_II)
 // functionTwo(variable_I, variable_III)
 // functionTwo(variable_IV, variable_II)
+
+let animal;
+animal = 'cat';
+
+const animalType = (variable: string) => {
+    console.log(`Seems like this is ${variable}`)
+};
+
+animalType(animal);
