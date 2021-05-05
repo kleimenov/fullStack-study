@@ -39,5 +39,12 @@ const getElementOfArray = <T>(arr: T[], randomNumber: number) => {
   console.log(arr[randomNumber]);
 };
 
+
+//async concept of TS
+const asyncConceptFunc = async (): Promise <void> => {
+    //function logic inside
+}
+
+
 //export default checkType;
 export default { checkType, myFunc, getElementOfArray };
