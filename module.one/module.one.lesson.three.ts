@@ -1,6 +1,6 @@
 //let's explore magic, here I will learn through the lengs of TS magic,
 //how it works with different types of data
-//SPOILER ALERT better that JS:)
+//SPOILER ALERT better that JS
 
 // let variable_I  = 44;
 // let variable_II  = 10;
