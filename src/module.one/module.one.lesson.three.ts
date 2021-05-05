@@ -26,14 +26,18 @@
 //let word: string = 'cat';
 
 const checkType = (variable: string) => {
-    console.log(`Seems like this is ${variable}`)
+  console.log(`Seems like this is ${variable}`);
 };
 
 const myFunc = (student: string | number): void => {
-    console.log(student);
-  };
+  console.log(student);
+};
+
+//generics concept if we can encounter with unexpected data types we can use generics
+//insted of complex functions <T>
+const getElementOfArray = <T>(arr: T[], randomNumber: number) => {
+  console.log(arr[randomNumber]);
+};
 
 //export default checkType;
-export default {checkType, myFunc}
-    
-
+export default { checkType, myFunc, getElementOfArray };

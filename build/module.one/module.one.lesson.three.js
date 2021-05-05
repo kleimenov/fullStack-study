@@ -27,5 +27,10 @@ var checkType = function (variable) {
 var myFunc = function (student) {
     console.log(student);
 };
+//generics concept if we can encounter with unexpected data types we can use generics
+//insted of complex functions <T>
+var getElementOfArray = function (arr, randomNumber) {
+    console.log(arr[randomNumber]);
+};
 //export default checkType;
-exports.default = { checkType: checkType, myFunc: myFunc };
+exports.default = { checkType: checkType, myFunc: myFunc, getElementOfArray: getElementOfArray };
