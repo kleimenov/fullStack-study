@@ -1,10 +1,13 @@
 "use strict";
-// import checkType from './module.one/module.one.lesson.three'
-var word = 'cat';
-// checkType(word)
-console.log(word);
-var word_second = "Nanana";
-var myFunc = function (student) {
-    console.log(student);
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
 };
-myFunc(word_second);
+Object.defineProperty(exports, "__esModule", { value: true });
+var module_one_lesson_three_1 = __importDefault(require("./module.one/module.one.lesson.three"));
+var word = 'cat';
+module_one_lesson_three_1.default.checkType(word);
+var word_second = 5;
+// const myFunc = (student: string | number): void => {
+//     console.log(student);
+//   };
+module_one_lesson_three_1.default.myFunc(word_second);

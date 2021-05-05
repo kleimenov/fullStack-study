@@ -1,20 +1,18 @@
+"use strict";
 //let's explore magic, here I will learn through the lengs of TS magic,
 //how it works with different types of data
 //SPOILER ALERT better that JS
-
+Object.defineProperty(exports, "__esModule", { value: true });
 // let variable_I  = 44;
 // let variable_II  = 10;
 // let variable_III = '3';
 // let variable_IV = 'XYI';
-
 // const functionOne = (var1:number , var2:number) => {
 //    console.log(var1 + var2)
 // }
-
 // const functionTwo = (var1, var2) => {
 //     console.log(var1 * var2)
 // }
-
 // functionOne(variable_I, variable_II)
 // functionOne(variable_I, variable_III)
 // functionOne(variable_IV, variable_II)
@@ -22,18 +20,12 @@
 // functionTwo(variable_I, variable_II)
 // functionTwo(variable_I, variable_III)
 // functionTwo(variable_IV, variable_II)
-
 //let word: string = 'cat';
-
-const checkType = (variable: string) => {
-    console.log(`Seems like this is ${variable}`)
+var checkType = function (variable) {
+    console.log("Seems like this is " + variable);
 };
-
-const myFunc = (student: string | number): void => {
+var myFunc = function (student) {
     console.log(student);
-  };
-
+};
 //export default checkType;
-export default {checkType, myFunc}
-    
-
+exports.default = { checkType: checkType, myFunc: myFunc };
