@@ -2,7 +2,7 @@
   "name": "fullstackjsdev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/kleimenov/fullStack-study#readme",
   "devDependencies": {
+    "@types/node": "^15.0.2",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
   "dependencies": {

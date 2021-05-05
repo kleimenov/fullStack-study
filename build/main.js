@@ -1,9 +1,8 @@
 "use strict";
-var variable_I = 44;
-var variable_II = 10;
-var variable_III = '3';
-var variable_IV = 'XYI';
-var functionOne = function (var1, var2) {
-    console.log(var1 + var2);
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
 };
-functionOne(variable_I, variable_II);
+Object.defineProperty(exports, "__esModule", { value: true });
+var module_one_lesson_three_1 = __importDefault(require("./module.one/module.one.lesson.three"));
+var word = 'cat';
+module_one_lesson_three_1.default(word);

@@ -23,11 +23,12 @@
 // functionTwo(variable_I, variable_III)
 // functionTwo(variable_IV, variable_II)
 
-let animal;
-animal = 'cat';
+//let word: string = 'cat';
 
-const animalType = (variable: string) => {
+const checkType = (variable: string) => {
     console.log(`Seems like this is ${variable}`)
 };
 
-animalType(animal);
+//animalType(word);
+
+export default checkType;

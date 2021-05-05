@@ -2,6 +2,7 @@
 //let's explore magic, here I will learn through the lengs of TS magic,
 //how it works with different types of data
 //SPOILER ALERT better that JS
+Object.defineProperty(exports, "__esModule", { value: true });
 // let variable_I  = 44;
 // let variable_II  = 10;
 // let variable_III = '3';
@@ -19,9 +20,9 @@
 // functionTwo(variable_I, variable_II)
 // functionTwo(variable_I, variable_III)
 // functionTwo(variable_IV, variable_II)
-// var animal;
-// animal = 'cat';
-// var animalType = function (variable) {
-//     console.log("Seems like this is " + variable);
-// };
-// animalType(animal);
+//let word: string = 'cat';
+var checkType = function (variable) {
+    console.log("Seems like this is " + variable);
+};
+//animalType(word);
+exports.default = checkType;
