@@ -17,3 +17,4 @@ module_one_lesson_three_1.default.checkType(word);
 //   };
 module_one_lesson_three_1.default.myFunc(word_second);
 module_one_lesson_three_1.default.getElementOfArray(catsGang, unexpectedNumber);
+module_one_lesson_three_1.default.asyncConceptFunc("Lion");

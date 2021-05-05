@@ -19,3 +19,5 @@ funcs.checkType(word)
 funcs.myFunc(word_second)
 
 funcs.getElementOfArray(catsGang, unexpectedNumber)
+
+funcs.asyncConceptFunc("Lion")

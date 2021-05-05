@@ -26,7 +26,7 @@
 //let word: string = 'cat';
 
 const checkType = (variable: string) => {
-  console.log(`Seems like this is ${variable}`);
+  return `Seems like this is ${variable}`;
 };
 
 const myFunc = (student: string | number): void => {
@@ -39,12 +39,13 @@ const getElementOfArray = <T>(arr: T[], randomNumber: number) => {
   console.log(arr[randomNumber]);
 };
 
-
 //async concept of TS
-const asyncConceptFunc = async (): Promise <void> => {
-    //function logic inside
-}
-
+const asyncConceptFunc = async (data: any): Promise<void> => {
+  const result = await checkType(data);
+  setTimeout(() => {
+    console.log(result);
+  }, 2000);
+};
 
 //export default checkType;
-export default { checkType, myFunc, getElementOfArray };
+export default { checkType, myFunc, getElementOfArray, asyncConceptFunc };
