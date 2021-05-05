@@ -6,3 +6,4 @@ let word: string = 'cat';
 // checkType(word)
 
 console.log(word)
+
