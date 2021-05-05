@@ -13,9 +13,13 @@ const addNumbers = (var1, var2) => {
 const multipleNumbers = (var1, var2) => {
     console.log(var1 * var2)
 }
-
+console.log('---------------- 1 --------------------');
 addNumbers(a, b)
+console.log('---------------- 2 --------------------');
 addNumbers(a, stringNum)
+console.log('---------------- 3 --------------------');
+addNumbers(stringNum, a)
+console.log('---------------- 4 --------------------');
 addNumbers(word, b)
 
 multipleNumbers(a, b)

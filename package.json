@@ -1,0 +1,24 @@
+{
+  "name": "fullstackjsdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kleimenov/fullStack-study.git"
+  },
+  "author": "i.kleymenov84@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kleimenov/fullStack-study/issues"
+  },
+  "homepage": "https://github.com/kleimenov/fullStack-study#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
