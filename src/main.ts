@@ -1,6 +1,8 @@
-import checkType from './module.one/module.one.lesson.three'
+// import checkType from './module.one/module.one.lesson.three'
 
 let word: string = 'cat';
 
 
-checkType(word)
+// checkType(word)
+
+console.log(word)
